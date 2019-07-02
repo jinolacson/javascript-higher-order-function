@@ -6,11 +6,11 @@ order built in functions and working with `fetch` api. We will look at
 
 ```
 /**
- * @author Jino
- * @email jinowilbertolacson@gmail.com
- * @create date 2019-07-02 17:07:21
- * @modify date 2019-07-02 17:07:21
- */
+* @author Jino
+* @email jinowilbertolacson@gmail.com
+* @create date 2019-07-02 17:07:21
+* @modify date 2019-07-02 17:07:21
+*/
  
 //Rest API endpoint starwars
 
