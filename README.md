@@ -141,12 +141,17 @@ Example 3:
 
 Example 4: using es6 format
 
-const rotationSum3 = starWarsPlanet.reduce((total, rotatePeriod) => total + rotatePeriod.rotation_period, 0);
+const rotationSum3 = starWarsPlanet
+                    .reduce((total, rotatePeriod) => total + rotatePeriod.rotation_period, 0);
 
 
-const rotationSum4 = starWarsPlanet.reduce((total, movements) => total + (movements.rotation_period - movements.orbital_period), 0);
+const rotationSum4 = starWarsPlanet
+                    .reduce((total, movements) => total + (movements.rotation_period - movements.orbital_period), 0);
 
-console.log(rotationSum)
+console.log(rotationSum1)
+console.log(rotationSum2)
+console.log(rotationSum3)
+console.log(rotationSum4)
 
 ```
 
